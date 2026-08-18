@@ -1,5 +1,4 @@
 name: PetClinic CI
-name: PetClinic CI
 
 on:
   push:
