@@ -22,3 +22,9 @@ jobs:
           cache: maven
       - name: Build and test with Maven
         run: ./mvnw -B package
+
+      - name: Upload JAR artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: petclinic-jar
+          path: target/spring-petclinic-4.0.0.SNAPSHOT.jar
