@@ -1,10 +1,11 @@
 name: PetClinic CI
+name: PetClinic CI
 
 on:
   push:
-    branches: ["main]
+    branches: ["main"]
   pull_request:
-    branches: ["main]
+    branches: ["main"]
 
 jobs:
   build:
